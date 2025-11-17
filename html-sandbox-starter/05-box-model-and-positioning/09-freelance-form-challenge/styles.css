@@ -8,3 +8,46 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #f4f4f4;
 }
+
+.container {
+  width: 400px;
+  margin: 100px auto;
+}
+
+.card {
+  background: #373f4d;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 60px 50px;
+}
+
+.card h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.card input {
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 14px;
+}
+
+.card button {
+  width: 100%;
+  font-size: 14px;
+  padding: 14px;
+  background: linear-gradient(90deg,
+      rgba(242, 132, 62, 1) 21%,
+      rgba(239, 111, 69, 1) 61%);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
