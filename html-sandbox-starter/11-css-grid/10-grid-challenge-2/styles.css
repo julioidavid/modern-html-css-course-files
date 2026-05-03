@@ -17,12 +17,16 @@ header {
   background-color: #333;
   color: #fff;
   padding: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 nav {
   background-color: #444;
   color: #fff;
   padding: 20px;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .search {
@@ -34,6 +38,8 @@ nav {
 main {
   background-color: #f0f0f0;
   padding: 20px;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 aside {
@@ -45,4 +51,12 @@ footer {
   background-color: #666;
   color: #fff;
   padding: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto 1fr auto;
 }
